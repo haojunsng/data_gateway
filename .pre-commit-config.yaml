@@ -6,8 +6,8 @@ repos:
       - id: end-of-file-fixer
       - id: check-yaml
 
-  - repo: https://github.com/golangci/golangci-lint
-    rev: v1.43.0
+  - repo: https://github.com/dnephin/pre-commit-golang
+    rev: v0.5.0
     hooks:
-      - id: golangci-lint
-        args: ['run', '--config=.golangci.yml']
+      - id: go-fmt
+      - id: no-go-testing
