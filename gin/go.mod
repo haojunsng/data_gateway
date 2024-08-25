@@ -1,4 +1,4 @@
-module gin_api
+module gin
 
 go 1.22.4
 
